@@ -2,7 +2,7 @@
 A NAND Gate is a logic gate in boolean algebra which results to 0 (False) if both
 the inputs are 1, and 1 (True) otherwise. It's similar to adding
 a NOT gate along with an AND gate.
-Following is the truth table of a NAND Gate:
+Following is the truth table of a NAND Gate: 
     ------------------------------
     | Input 1 | Input 2 | Output |
     ------------------------------
@@ -32,7 +32,7 @@ def nand_gate(input_1: int, input_2: int) -> int:
 
 def test_nand_gate() -> None:
     """
-    Tests the nand_gate function
+    Tests the nand_gate function 
     """
     assert nand_gate(0, 0) == 1
     assert nand_gate(0, 1) == 1
